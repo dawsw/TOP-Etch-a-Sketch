@@ -1,5 +1,7 @@
-function createRows(input) {
+function createGrid() {
+    deleteRows();
     let container = document.querySelector("#sketch-container");
+    let input = document.querySelector("#input-box").value
 
     for (let i = 0; i < input; i++) {
         let row = document.createElement("div");
@@ -28,6 +30,12 @@ function getDimensions(input) {
     return 500 / input;
 }
 
-createRows(16);
+function deleteRows() {
+    document.getElementById("sketch-container").innerHTML = "";
+}
+
+
+
+
 
 
