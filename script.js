@@ -1,15 +1,4 @@
-
-//create a clear button that changes all existing squares to white
 let enterButton = document.querySelector("#enterbutton");
-enterButton.addEventListener("click", () => {
-    if (enterButton.textContent = "Enter") {
-        enterButton.textContent = "Clear";
-    }
-    else {
-        let squares = document.querySelectorAll(".square");
-        squares.style.backgroundColor = "White";
-    }
-});
 
 //allow user to change sizes after entering new number
 let inputBox= document.querySelector("#input-box");
@@ -21,6 +10,12 @@ function createGrid() {
     deleteRows();
     let container = document.querySelector("#sketch-container");
     let input = document.querySelector("#input-box").value
+
+    if (input > 100) {
+        alert("Number must be between 1 and 100.");
+        enterButton.textContent = "Enter"
+        return;
+    }
 
     //create input number of rows
     for (let i = 0; i < input; i++) {
@@ -37,6 +32,13 @@ function createGrid() {
         createSquares(input, i);
     }
     
+    if (enterButton.textContent = "Enter") {
+        enterButton.textContent = "Clear";
+    }
+    else {
+        let squares = document.querySelectorAll(".square");
+        squares.style.backgroundColor = "White";
+    }
 }
 
 function createSquares (input, rownumber) {
