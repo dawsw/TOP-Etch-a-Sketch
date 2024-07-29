@@ -1,6 +1,6 @@
 # TOP-Etch-a-Sketch 
 
-Welcome to my Etch-A-Sketch project! This project is a part of The Odin Project's curriculum where you build a virtual Etch-A-Sketch toy that allows users to draw on a grid using various functionalities.
+Welcome to my Etch-a-Sketch project! This project is a part of The Odin Project's curriculum where you build a virtual Etch-A-Sketch toy that allows users to draw on a grid using various functionalities.
 
 ## Description
 
