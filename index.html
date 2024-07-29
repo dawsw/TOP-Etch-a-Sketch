@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="flex">
+    <h1 style="margin-bottom: 0">ETCH-A-SKETCH</h1>
     <span>
-        <input class="input-box"><button>Enter</button>
+        <p>Size (1-100):<input id="input-box" type="number" min="1" max="100"><button id="enterbutton" onclick=createGrid() style="margin-left: 10px">Enter</button></p>
     </span>
     <div id="sketch-container"></div>
     <script src="script.js"></script>
