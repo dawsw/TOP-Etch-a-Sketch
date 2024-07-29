@@ -7,7 +7,7 @@ Welcome to my Etch-a-Sketch project! This project is a part of The Odin Project'
 This Etch-A-Sketch project aims to recreate the classic drawing toy in a digital format using web technologies. Users will be able to draw on a grid with their mouse or touchpad, clear the drawing, and change the size of the grid. 
 
 ### Preview:
-![screenshot](calculator-screenshot.png)
+![screenshot](screenshot_etch-a-sketch1.png)
 
 #### Technologies:
 - JavaScript
