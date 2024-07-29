@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+    background-color: rgb(195, 255, 200);
 }
 
 .flex {
@@ -14,7 +15,7 @@ body {
 
 #sketch-container {
     flex-direction: column;
-    
+    background-color: white;
     width: 500px;
     height: 500px;
     outline: 4px solid black;
@@ -37,9 +38,10 @@ body {
 }
 
 #input-box {
+    border-radius: 5px;
     margin: 10px;
     height: 15px;
-    width: 20px;
+    width: 25px;
 }
 
 /* hide arrows on input */
